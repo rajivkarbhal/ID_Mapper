@@ -4,6 +4,8 @@ from PyQt5.QtCore import Qt, pyqtSignal, QThread
 from PyQt5.QtGui import QMovie, QIcon
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QTextEdit, QPushButton, QCheckBox, QScrollArea, QLineEdit, QLabel, QTabWidget, QFileDialog
 
+# GUI for ID mapper
+
 class WebContentFetcher(QWidget):
     def __init__(self):
         super().__init__()
