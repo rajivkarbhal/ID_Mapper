@@ -10,6 +10,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 # Second change
 # Changes for git diff
 # Another change
+# New line added
 
 class gene:
     def __init__(self,unurl,strurl,ensurl,ucscurl,omimurl,snpurl,varurl,hlmurl,cddurl,bgrdurl,minturl,stringurl,cprturl,inturl,keggurl,gobpurl,goccurl,gomfurl):
