@@ -8,8 +8,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
 # Its demo change file
 # Second change
-# Third change
-# Next change
+
 # Another change
 
 class gene:
