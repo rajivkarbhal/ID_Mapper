@@ -1,0 +1,52 @@
+LOCUS       GQ225665                 513 bp    DNA     linear   VRT 25-JUL-2016
+DEFINITION  Naja naja naja cytochrome oxidase subunit I (COI) gene, partial
+            cds; mitochondrial.
+ACCESSION   GQ225665
+VERSION     GQ225665.1
+KEYWORDS    .
+SOURCE      mitochondrion Naja naja (Indian cobra)
+  ORGANISM  Naja naja
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata;
+            Toxicofera; Serpentes; Colubroidea; Elapidae; Elapinae; Naja.
+REFERENCE   1  (bases 1 to 513)
+  AUTHORS   Dubey,B., Meganathan,P.R. and Haque,I.
+  TITLE     Molecular phylogeny of Natricinae with special reference to genus
+            Xenochrophis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 513)
+  AUTHORS   Dubey,B., Meganathan,P.R. and Haque,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2009) National DNA Analysis Centre, Central
+            Forensic Science Laboratory, 30 Gorachan Road, Kolkata, West Bengal
+            700014, India
+FEATURES             Location/Qualifiers
+     source          1..513
+                     /organism="Naja naja"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:35670"
+     gene            <1..>513
+                     /gene="COI"
+     CDS             <1..>513
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="ADK73341.1"
+                     /translation="AGTGWTVYPPLSGNLVQSGPSVDLAIFSLHLAGASSILGAINFI
+                     TTCINMKPKSMPMFNIPLFVWSVLITAIMLLLALPVLAAAITMLLTDRNLNTSFFDPW
+                     GGGDPVLFQHLFWFFGHPEVYIFILPEFGIVFGTTTFYTGKKNTLGYPSMIWTMMSMA
+                     TLGFGGWAHH"
+ORIGIN      
+        1 gtgccggtac cggttgaaca gtctacccgc ccctatcagg aaacctagtt caatcaggcc
+       61 catcagttga tctagctatt ttttcgctac atctagcagg agcctcttcc atcctgggag
+      121 caattaactt cattacgaca tgcatcaaca taaaacctaa gtcaatacca atatttaaca
+      181 tcccactatt tgtctgatca gtacttatta cagccattat gctcctacta gccttgccag
+      241 tactagcagc cgcaatcacc atactcctaa cagatcgaaa ccttaataca tccttcttcg
+      301 acccctgggg aggaggagac cctgtgctat tccagcacct cttctggttc tttggccacc
+      361 cagaagtcta catttttatc ttaccggaat ttggcattgt attcggaaca accaccttct
+      421 ataccggaaa aaaaaacact ttgggctacc caagcataat ctggacaata atatctatgg
+      481 caaccctggg gtttggtgga tgagcccacc ata
+//
+
