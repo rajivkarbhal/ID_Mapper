@@ -6,6 +6,8 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
+# Its demo change file
+
 class gene:
     def __init__(self,unurl,strurl,ensurl,ucscurl,omimurl,snpurl,varurl,hlmurl,cddurl,bgrdurl,minturl,stringurl,cprturl,inturl,keggurl,gobpurl,goccurl,gomfurl):
         #self.gnurl = gnurl
