@@ -1,0 +1,42 @@
+/* Style the QTabWidget (the container for tabs) */
+QTabWidget {
+    background-color: #f0f0f0; /* Set the background color of the tab widget */
+}
+
+/* Style the QTabBar (the area containing the tab buttons) */
+QTabBar {
+    background-color: #e1e1e1; /* Set the background color of the tab bar */
+}
+
+/* Style the individual tab buttons */
+QTabBar::tab {
+    background-color: #dcdcdc; /* Set the background color of each tab */
+    color: #333; /* Set the text color of each tab */
+    min-width: 80px; /* Set the minimum width of each tab button */
+    padding: 6px; /* Set the padding around the text within each tab button */
+    border: 1px solid #c3c3c3; /* Set a border around each tab button */
+    border-top-left-radius: 5px; /* Add rounded corners to the top-left of each tab */
+    border-top-right-radius: 5px; /* Add rounded corners to the top-right of each tab */
+}
+
+/* Style the selected (active) tab button */
+QTabBar::tab:selected {
+    background-color: #ffffff; /* Set the background color of the selected tab */
+    border-top-left-radius: 5px; /* Add rounded corners to the top-left of the selected tab */
+    border-top-right-radius: 5px; /* Add rounded corners to the top-right of the selected tab */
+    border-bottom: 2px solid #007acc; /* Set a colored border at the bottom of the selected tab */
+}
+
+/* Style the content within the tabs */
+QTabWidget::pane {
+    border: 1px solid #c3c3c3; /* Set a border around the tab content area */
+    border-bottom-left-radius: 5px; /* Add rounded corners to the bottom-left of the content area */
+    border-bottom-right-radius: 5px; /* Add rounded corners to the bottom-right of the content area */
+}
+
+/* Style the content area of each tab */
+QTabWidget::tab-content {
+    background-color: #ffffff; /* Set the background color of the content area */
+    border-bottom-left-radius: 5px; /* Add rounded corners to the bottom-left of the content area */
+    border-bottom-right-radius: 5px; /* Add rounded corners to the bottom-right of the content area */
+}

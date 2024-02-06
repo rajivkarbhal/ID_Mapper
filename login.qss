@@ -1,0 +1,105 @@
+QWidget {
+  background-color: #FFFAFA;
+  font-family: Arial, sans-serif; /* Set the font family for the tabs */
+  font-size: 12px; /* Set the font size for the tabs */
+}
+
+QLabel {
+  color: #464d55;
+  font-weight: 600;
+}
+
+QLabel#heading {
+  color: #0f1925;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+QLabel#subheading {
+  color: #5A3D3D;
+  font-family: Arial, sans-serif; /* Set the font family for the tabs */
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+QLineEdit {
+  border-radius: 8px;
+  border: 1px solid #5A5353;
+  padding: 5px 15px;
+  font-family: Arial, sans-serif; /* Set the font family for the tabs */
+  font-size: 12px; /* Set the font size for the tabs */
+}
+
+QLineEdit:focus {
+  border: 1px solid #5A5353;
+}
+
+QLineEdit::placeholder {
+  color: #767e89;
+}
+
+QPushButton {
+  background-color: #DAD6D6;
+  color: #000000;
+  font-family: Arial, sans-serif; /* Set the font family for the tabs */
+  font-size: 12px; /* Set the font size for the tabs */
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #DAD6D6;
+  padding: 5px 15px;
+  margin-top: 10px;
+  outline: 0px;
+}
+
+QPushButton:hover,
+QPushButton:focus {
+  background-color: #DAD6D6;
+  border: 1px solid #DAD6D6;
+}
+
+/* Style the QTabWidget (the container for tabs) */
+
+/* Style the QTabBar (the area containing the tab buttons) */
+QTabBar {
+    background-color: #FFFAFA; /* Set the background color of the tab bar */
+}
+
+/* Style the individual tab buttons */
+QTabBar::tab {
+    background-color: #FAFFFA; /* Set the background color of each tab */
+    color: #333; /* Set the text color of each tab */
+    min-width: 80px; /* Set the minimum width of each tab button */
+    padding: 6px; /* Set the padding around the text within each tab button */
+    border: 1px solid #5A5353; /* Set a border around each tab button */
+    border-top-left-radius: 5px; /* Add rounded corners to the top-left of each tab */
+    border-top-right-radius: 5px; /* Add rounded corners to the top-right of each tab */
+    font-family: Arial, sans-serif; /* Set the font family for the tabs */
+    font-size: 12px; /* Set the font size for the tabs */
+}
+
+/* Style the selected (active) tab button */
+QTabBar::tab:selected {
+    background-color: #ffffff; /* Set the background color of the selected tab */
+    border-top-left-radius: 5px; /* Add rounded corners to the top-left of the selected tab */
+    border-top-right-radius: 5px; /* Add rounded corners to the top-right of the selected tab */
+    border-bottom: 1px solid #5A5353; /* Set a colored border at the bottom of the selected tab */
+}
+
+/* Style the content within the tabs */
+QTabWidget::pane {
+    border: 1px solid #FAFFFA; /* Set a border around the tab content area */
+    border-bottom-left-radius: 5px; /* Add rounded corners to the bottom-left of the content area */
+    border-bottom-right-radius: 5px; /* Add rounded corners to the bottom-right of the content area */
+    font-family: Arial, sans-serif; /* Set the font family for the tabs */
+    font-size: 12px; /* Set the font size for the tabs */
+}
+
+/* Style the content area of each tab */
+QTabWidget::tab-content {
+    background-color: #FFFFFF; /* Set the background color of the content area */
+    border-bottom-left-radius: 5px; /* Add rounded corners to the bottom-left of the content area */
+    border-bottom-right-radius: 5px; /* Add rounded corners to the bottom-right of the content area */
+    font-family: Arial, sans-serif; /* Set the font family for the tabs */
+    font-size: 12px; /* Set the font size for the tabs */
+}
